@@ -1,0 +1,20 @@
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  margin: auto;
+}
+.container h1 {
+  color: rgb(175, 57, 57);
+  font-size: calc(1vw + 1rem);
+  text-align: center;
+  line-height: 200px;
+}
+.container .flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: green;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+// 
+$warna-1 :orange ;
+@mixin flex-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+  width: 200px;
+  height: 200px;
+  background-color: $warna-1 ;  
+  margin: auto;
+  & h1{
+    color: rgb(175, 57, 57);
+    font-size: calc(1vw + 1rem);
+    text-align: center ;
+    line-height: 200px
+  }
+  .flex-box{
+    @include flex-box() ;
+    background-color: green;
+  }
+}
+
+
